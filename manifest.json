@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2, 
+  "name": "Remove Pinterest login pop up",
+  "version": "0.1.0",
+  "description": "Removes the login pop up on Pinterest so that it can be used without an account.", 
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://www.pinterest.com/*", "https://www.pinterest.de/*"]
+  }]
+}
